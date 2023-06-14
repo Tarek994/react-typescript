@@ -5,7 +5,7 @@ import { Greet } from './components/Greet.tsx';
 function App() {
   return (
     <div className="App">
-      <Greet name="Vishwas"/>
+      <Greet name="welcome Tarek" messageCount={10} isLoggedIn={false}/>
     </div>
   );
 }

@@ -31,6 +31,10 @@ function App() {
       {/* <Greet name="welcome Tarek" messageCount={10} isLoggedIn={false} />
       <Person name={personName} />
       <PersonList names={nameList} /> */}
+
+      <Button handleClick={(event, id) => {
+        console.log('button Clicked', event);
+      }} />
     </div>
   );
 }

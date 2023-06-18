@@ -40,6 +40,7 @@ function App() {
         console.log('button Clicked', event);
       }} />
       <Input value='' handleChange={(event) => console.log(event)}/>
+      <Container styles={{border: '1px solid black', padding: '1rem'}}/>
     </div>
   );
 }

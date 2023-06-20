@@ -1,8 +1,7 @@
+import { Name} from "./Person.type.ts"
+
 type PersonListProps = {
-    names: {
-        first: string
-        last: string
-    }[]
+    names: Name[]
 }
 
 

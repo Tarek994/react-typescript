@@ -13,7 +13,10 @@ function reducer(state, action) {
 
 
 export const Counter = () => {
+  const [state, dispatch] = useReducer(reducer, initialState)
   return (
-    <div>Counter</div>
+    <>
+
+    </>
   )
 }

@@ -36,11 +36,12 @@ function App() {
       <Person name={personName} />
       <PersonList names={nameList} /> */}
 
-      <Button handleClick={(event, id) => {
+      {/* <Button handleClick={(event, id) => {
         console.log('button Clicked', event);
       }} />
       <Input value='' handleChange={(event) => console.log(event)}/>
-      <Container styles={{border: '1px solid black', padding: '1rem'}}/>
+      <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
+      <User/>
     </div>
   );
 }

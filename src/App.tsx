@@ -6,6 +6,7 @@ import { PersonList } from './components/PersonList.tsx';
 import Button from './components/Button.tsx';
 import Input from './components/Input.tsx';
 import { Container } from './components/Container.tsx';
+import { User } from './components/state/User.tsx';
 
 
 function App() {

@@ -17,7 +17,7 @@ export const User = () => {
         <div>
             <button onClick={handleLogin}>Login</button>
             <div>User name is {user.name}</div>
-            <div>User name is {user.email}</div>
+            <div>User email is {user.email}</div>
         </div>
     )
 }

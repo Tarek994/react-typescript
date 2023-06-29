@@ -7,7 +7,8 @@ function reducer(state, action) {
     case 'increment':
       return { count: state.count + action.payload }
     case 'decrement':
-      return { count: state.count + action.payload }
+      case 'reset':
+        return initialState
     default:
       return state
   }

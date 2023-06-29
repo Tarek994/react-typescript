@@ -1,5 +1,10 @@
 import { useReducer } from 'react'
 
+type CounterState = {
+  count: string
+}
+
+type CounterAction = {
 const initialState = { count: 0 }
 
 function reducer(state, action) {

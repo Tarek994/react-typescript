@@ -36,6 +36,9 @@ export const Counter = () => {
       <button onClick={() => dispatch({ type: 'decrement', payload: 10 })}>
         Increment 10
       </button>
+      <button onClick={() => dispatch({ type: 'reset', payload: 0 })}>
+        Reset
+      </button>
     </>
   )
 }

@@ -5,6 +5,10 @@ type CounterState = {
 }
 
 type CounterAction = {
+  type: 'increment' | 'decrement' | 'reset'
+  payload?: number
+}
+
 const initialState = { count: 0 }
 
 function reducer(state, action) {

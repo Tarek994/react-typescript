@@ -16,6 +16,7 @@ function reducer(state: CounterState, action: CounterAction) {
     case 'increment':
       return { count: state.count + action.payload }
     case 'decrement':
+      return { count: state.count - action.payload  }
       case 'reset':
         return initialState
     default:

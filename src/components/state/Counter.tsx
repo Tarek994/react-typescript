@@ -11,7 +11,7 @@ type CounterAction = {
 
 const initialState = { count: 0 }
 
-function reducer(state, action) {
+function reducer(state: CounterState, action: CounterAction) {
   switch (action.type) {
     case 'increment':
       return { count: state.count + action.payload }

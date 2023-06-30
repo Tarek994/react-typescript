@@ -12,6 +12,8 @@ type RestAction = {
   payload?: number
 }
 
+type UpdateAction = {
+  type: 'increment' | 'decrement'
   payload?: number
 }
 

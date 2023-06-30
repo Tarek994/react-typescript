@@ -8,6 +8,10 @@ type CounterAction = UpdateAction | RestAction
 
 
 type RestAction = {
+  type: 'reset'
+  payload?: number
+}
+
   payload?: number
 }
 

@@ -4,8 +4,10 @@ type CounterState = {
   count: string
 }
 
-type CounterAction = {
-  type: 'increment' | 'decrement' | 'reset'
+type CounterAction = UpdateAction | RestAction
+
+
+type RestAction = {
   payload?: number
 }
 

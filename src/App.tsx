@@ -8,6 +8,7 @@ import Input from './components/Input.tsx';
 import { Container } from './components/Container.tsx';
 import { User } from './components/state/User.tsx';
 import { Box } from './components/context/Box.tsx';
+import { ThemeContextProvider } from './components/context/ThemeContext.tsx';
 
 
 function App() {
@@ -44,7 +45,10 @@ function App() {
       <Input value='' handleChange={(event) => console.log(event)}/>
       <Container styles={{border: '1px solid black', padding: '1rem'}}/> */}
       {/* <User/> */}
-      <Box/>
+      <ThemeContextProvider>
+       <Box/>
+      </ThemeContextProvider>
+
     </div>
   );
 }

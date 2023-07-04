@@ -5,6 +5,9 @@ import React from 'react'
 export const Box = () => {
     const theme = useContext(ThemeContext)
   return (
-    <div>Box</div>
+    <div
+      style={{background: theme.primary.main, color:theme.primary.text}}>
+      Theme context
+    </div>
   )
 }

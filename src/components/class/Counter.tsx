@@ -13,7 +13,8 @@ export class Counter extends Component {
     render() {
         return (
             <div>
-               
+                <button onClick={this.handleClick}>Increment</button>
+                {this.props.message} {this.state.count}
             </div>
         )
     }

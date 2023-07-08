@@ -7,10 +7,13 @@ export class Counter extends Component {
         count: 0,
     }
 
-
+    handleClick = () => {
+        this.setState((prevState) => ({ count: prevState.count + 1 }))
+    }
     render() {
+        return (
             <div>
-                
+               
             </div>
         )
     }

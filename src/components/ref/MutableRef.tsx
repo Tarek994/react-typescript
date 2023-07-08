@@ -6,7 +6,7 @@ export const MutableRef = () => {
 
     const stopTimer = () => {
 
-        if(interValRef.current) window.clearInterval(interValRef.current)
+        if (interValRef.current) window.clearInterval(interValRef.current)
     }
     useEffect(() => {
         interValRef.current = window.setInterval(() => {

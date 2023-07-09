@@ -1,5 +1,8 @@
 import { Component } from 'react'
 
+type CounterProps = {
+    message: string
+}
 
 
 export class Counter extends Component {

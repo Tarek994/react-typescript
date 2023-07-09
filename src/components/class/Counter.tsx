@@ -4,6 +4,9 @@ type CounterProps = {
     message: string
 }
 
+type CounterState = {
+    count: number
+}
 
 export class Counter extends Component {
     state = {

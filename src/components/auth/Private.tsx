@@ -8,7 +8,7 @@ type PrivateProps = {
 
 export const Private = ({ isLoggedIn, Component }: PrivateProps) => {
     if (isLoggedIn) {
-        return <Component />
+        return <Component name='Vishwas'/>
     } else {
         return <Login />
     }

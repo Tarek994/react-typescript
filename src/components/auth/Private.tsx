@@ -1,4 +1,5 @@
 import { Login } from './Login'
+import { ProfileProps } from './Profile'
 
 type PrivateProps = {
     isLoggedIn: boolean

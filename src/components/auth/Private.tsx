@@ -3,7 +3,7 @@ import { ProfileProps } from './Profile'
 
 type PrivateProps = {
     isLoggedIn: boolean
-    Component: React.ComponentType
+    Component: React.ComponentType<ProfileProps>
 }
 
 export const Private = ({ isLoggedIn, Component }: PrivateProps) => {

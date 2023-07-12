@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Greet } from "./components/Greet.tsx";
-import { Person } from "./components/Person.tsx";
-import { PersonList } from "./components/PersonList.tsx";
-import Button from "./components/Button.tsx";
-import Input from "./components/Input.tsx";
-import { Container } from "./components/Container.tsx";
-import { User } from "./components/state/User.tsx";
-import { Box } from "./components/context/Box.tsx";
-import { ThemeContextProvider } from "./components/context/ThemeContext.tsx";
+import   Button from "./components/Button.tsx"
+import   Input from "./components/Input.tsx"
+import { Container } from "./components/Container.tsx"
+import { User } from "./components/state/User.tsx"
+import { Box } from "./components/context/Box.tsx"
+import { ThemeContextProvider } from "./components/context/ThemeContext.tsx"
+import { Private } from "./components/auth/Private.tsx"
+import { Profile } from "./components/auth/Profile.tsx"
 
 function App() {
   // const personName = {

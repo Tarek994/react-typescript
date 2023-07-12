@@ -45,8 +45,9 @@ function App() {
       {/* <ThemeContextProvider>
         <Box />
       </ThemeContextProvider> */}
+      <Private isLoggedIn={true} component={Profile}/>
     </div>
-  );
+  )
 }
 
 export default App;

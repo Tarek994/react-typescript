@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import { Greet } from "./components/Greet.tsx"
+import { Person } from "./components/Person.tsx"
+import { PersonList } from "./components/PersonList.tsx"
 import   Button from "./components/Button.tsx"
 import   Input from "./components/Input.tsx"
 import { Container } from "./components/Container.tsx"
@@ -50,4 +53,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

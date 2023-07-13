@@ -3,7 +3,7 @@ type ListProps = {
     onClick: (value: string) => void
 }
 
-export const List = () => {
+export const List = ({items, onClick}: ListProps) => {
   return (
     <div>List</div>
   )

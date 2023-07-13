@@ -3,8 +3,8 @@ import "./App.css";
 import { Greet } from "./components/Greet.tsx"
 import { Person } from "./components/Person.tsx"
 import { PersonList } from "./components/PersonList.tsx"
-import   Button from "./components/Button.tsx"
-import   Input from "./components/Input.tsx"
+import Button from "./components/Button.tsx"
+import Input from "./components/Input.tsx"
 import { Container } from "./components/Container.tsx"
 import { User } from "./components/state/User.tsx"
 import { Box } from "./components/context/Box.tsx"
@@ -53,6 +53,9 @@ function App() {
       <List
         items={['Batman', 'Superman', 'Wonder Woman']}
         onClick={(item) => console.log(item)} />
+      <List
+        items={[1, 2, 3]} onClick={(item) => console.log(item)} />
+
     </div>
   )
 }

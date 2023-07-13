@@ -11,6 +11,7 @@ import { Box } from "./components/context/Box.tsx"
 import { ThemeContextProvider } from "./components/context/ThemeContext.tsx"
 import { Private } from "./components/auth/Private.tsx"
 import { Profile } from "./components/auth/Profile.tsx"
+import { List } from "./components/generics/List.tsx";
 
 function App() {
   // const personName = {
@@ -49,6 +50,9 @@ function App() {
         <Box />
       </ThemeContextProvider> */}
       {/* <Private isLoggedIn={true} component={Profile}/> */}
+      <List
+        items={['Batman', 'Superman', 'Wonder Woman']}
+        onClick={(item) => console.log(item)} />
     </div>
   )
 }

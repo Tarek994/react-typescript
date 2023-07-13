@@ -48,7 +48,7 @@ function App() {
       {/* <ThemeContextProvider>
         <Box />
       </ThemeContextProvider> */}
-      <Private isLoggedIn={true} component={Profile}/>
+      {/* <Private isLoggedIn={true} component={Profile}/> */}
     </div>
   )
 }

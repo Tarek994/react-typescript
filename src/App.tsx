@@ -12,6 +12,7 @@ import { ThemeContextProvider } from "./components/context/ThemeContext.tsx"
 import { Private } from "./components/auth/Private.tsx"
 import { Profile } from "./components/auth/Profile.tsx"
 import { List } from "./components/generics/List.tsx";
+import { RandomNumber } from "./components/restriction/RandomNumber.tsx";
 
 function App() {
   // const personName = {
@@ -73,7 +74,7 @@ function App() {
             last: 'Diana',
           },
         ]} onClick={(item) => console.log(item)} /> */}
-
+        <RandomNumber/>
     </div>
   )
 }

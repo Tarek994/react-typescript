@@ -1,3 +1,10 @@
+type RandomNumberProps = {
+    value: number
+    isPositive?: boolean
+    isNegative?: boolean
+    isZero?: boolean
+}
+
 export const RandomNumber = ({
     value,
     isPositive,

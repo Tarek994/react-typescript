@@ -55,7 +55,7 @@ function App() {
         onClick={(item) => console.log(item)} />
       <List
         items={[1, 2, 3]} onClick={(item) => console.log(item)} /> */}
-      <List
+      {/* <List
         items={[
           {
             id: 1,
@@ -72,7 +72,8 @@ function App() {
             first: 'Princess',
             last: 'Diana',
           },
-        ]} onClick={(item) => console.log(item)} />
+        ]} onClick={(item) => console.log(item)} /> */}
+
     </div>
   )
 }

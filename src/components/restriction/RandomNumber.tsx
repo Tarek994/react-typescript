@@ -1,3 +1,11 @@
+type RandomNumberType = {
+    value: number
+}
+
+type PositiveNumber = RandomNumberType & {
+    isPositive : boolean
+}
+
 type RandomNumberProps = {
     value: number
     isPositive?: boolean

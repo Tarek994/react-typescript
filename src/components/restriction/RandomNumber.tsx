@@ -6,6 +6,11 @@ type PositiveNumber = RandomNumberType & {
     isPositive : boolean
 }
 
+type NegativeNumber = RandomNumberType & {
+    isPositive : boolean
+}
+
+
 type RandomNumberProps = {
     value: number
     isPositive?: boolean

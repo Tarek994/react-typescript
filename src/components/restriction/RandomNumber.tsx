@@ -9,7 +9,9 @@ type PositiveNumber = RandomNumberType & {
 }
 
 type NegativeNumber = RandomNumberType & {
-    isPositive : boolean
+    isNegative: boolean
+    isPositive?: never
+    isZero?: never
 }
 
 type Zero =  RandomNumberType & {

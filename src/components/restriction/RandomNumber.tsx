@@ -14,8 +14,10 @@ type NegativeNumber = RandomNumberType & {
     isZero?: never
 }
 
-type Zero =  RandomNumberType & {
+type Zero = RandomNumberType & {
     isZero: boolean
+    isPositive?: never
+    isNegative?: never
 }
 
 type RandomNumberProps = {

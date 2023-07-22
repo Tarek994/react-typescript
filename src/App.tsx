@@ -74,7 +74,7 @@ function App() {
             last: 'Diana',
           },
         ]} onClick={(item) => console.log(item)} /> */}
-        <RandomNumber value={10} isPositive isNegative isZero/>
+        <RandomNumber value={10} isPositive/>
     </div>
   )
 }

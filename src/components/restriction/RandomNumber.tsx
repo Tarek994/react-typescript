@@ -3,7 +3,9 @@ type RandomNumberType = {
 }
 
 type PositiveNumber = RandomNumberType & {
-    isPositive : boolean
+    isPositive: boolean
+    isNegative?: never
+    isZero?: never
 }
 
 type NegativeNumber = RandomNumberType & {

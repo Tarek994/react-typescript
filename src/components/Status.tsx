@@ -9,6 +9,8 @@ export const Status = (props: StatusProps) => {
         message = 'loading'
     }else if (props.status === 'success') {
         message = 'Data fetched successfully!'
+    }else if (props.status === 'error'){
+        message = 'Error fetching data'
     }
 
   return (

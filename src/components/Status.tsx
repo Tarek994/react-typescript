@@ -7,6 +7,8 @@ export const Status = (props: StatusProps) => {
     let message
     if (props.status === 'loading') {
         message = 'loading'
+    }else if (props.status === 'success') {
+        message = 'Data fetched successfully!'
     }
 
   return (

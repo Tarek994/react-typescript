@@ -3,7 +3,12 @@ type StatusProps = {
 }
 
 export const Status = (props: StatusProps) => {
-    
+
+    let message
+    if (props.status === 'loading') {
+        message = 'loading'
+    }
+
   return (
     <div>Status</div>
   )
